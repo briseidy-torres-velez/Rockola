@@ -3,11 +3,22 @@
 @foreach (var item in Model)
 {
 
-    <img  class="img-responsive" onclick=" player.destroy(); onYouTubeIframeAPIReady('@item.Id.VideoId')" src="http://img.youtube.com/vi/@item.Id.VideoId/mqdefault.jpg" alt="@item.Snippet.Title">
-    @item.Snippet.Title
-    @item.Id.VideoId
-  
-    <button class="btn btn-block fas fa-list  text-dark col-sm-1" onclick="addToPlayList('@item.Id.VideoId','@item.Snippet.Thumbnails.Default__.Url');"></button>
+<div class="row">
+    <div class="col-lg-5 ">
+        <img width="200" onclick=" player.destroy(); onYouTubeIframeAPIReady('@item.Id.VideoId')" src="http://img.youtube.com/vi/@item.Id.VideoId/mqdefault.jpg" alt="@item.Snippet.Title">
+        </div>
+    <div class="col-lg-5">
+        @item.Snippet.Title
+       <br>
+        <button class="btn btn-success" onclick="addToPlayList('@item.Id.VideoId','@item.Snippet.Thumbnails.Default__.Url');">Add</button>
+    </div>
+    </div>
+    <br />
+   
+
+   
+
+   
 
 
 

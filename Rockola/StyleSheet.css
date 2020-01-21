@@ -1,0 +1,28 @@
+﻿
+.my-col1 {
+    height: 300px;
+    width: 500px;
+    overflow-y: scroll;
+    display: inline-block;
+    padding-top: 0;
+}
+ 
+}
+.my-col2 {
+
+    display: inline-block;
+
+}
+
+.my-container
+{
+    padding-bottom: 1rem;
+}
+
+h4{
+    margin-top:1rem;
+}
+.my-row
+{
+
+}
