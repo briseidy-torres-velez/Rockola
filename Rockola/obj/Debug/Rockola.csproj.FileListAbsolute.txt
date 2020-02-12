@@ -88,3 +88,6 @@ C:\Users\Curso\source\repos\Rockola\Rockola\obj\Debug\Rockola.csproj.CoreCompile
 C:\Users\Curso\source\repos\Rockola\Rockola\obj\Debug\Rockola.csproj.CopyComplete
 C:\Users\Curso\source\repos\Rockola\Rockola\obj\Debug\Rockola.dll
 C:\Users\Curso\source\repos\Rockola\Rockola\obj\Debug\Rockola.pdb
+C:\Users\Curso\source\repos\Rockola\Rockola\bin\WcfService1.dll
+C:\Users\Curso\source\repos\Rockola\Rockola\bin\WcfService1.pdb
+C:\Users\Curso\source\repos\Rockola\Rockola\bin\WcfService1.dll.config

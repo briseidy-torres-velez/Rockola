@@ -1,0 +1,25 @@
+﻿@model List<HistorialT>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Historial:</h2>
+<hr/>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <td>ID:</td>
+            <td>Nombre:</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>@item.id</td>
+            <td>@item.videoName</td>
+        </tr>
+        }
+        </tbody>
+    </table>

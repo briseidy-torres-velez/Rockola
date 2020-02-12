@@ -1,0 +1,6 @@
+C:\Users\Curso\source\repos\Rockola\Dominio\bin\Debug\Dominio.dll
+C:\Users\Curso\source\repos\Rockola\Dominio\bin\Debug\Dominio.pdb
+C:\Users\Curso\source\repos\Rockola\Dominio\obj\Debug\Dominio.csprojAssemblyReference.cache
+C:\Users\Curso\source\repos\Rockola\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Curso\source\repos\Rockola\Dominio\obj\Debug\Dominio.dll
+C:\Users\Curso\source\repos\Rockola\Dominio\obj\Debug\Dominio.pdb

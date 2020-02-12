@@ -4,6 +4,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.28307.960
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rockola", "Rockola\Rockola.csproj", "{C0FEE631-701B-465B-844C-6157EACE527E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7E96EC35-B9CC-418F-88EB-D8685E61271F} = {7E96EC35-B9CC-418F-88EB-D8685E61271F}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfService1", "WcfService1\WcfService1.csproj", "{7E96EC35-B9CC-418F-88EB-D8685E61271F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiYoutube2", "ApiYoutube2\ApiYoutube2.csproj", "{D1059482-35EE-4F73-92C2-B953E674B8FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebClient", "WebClient\WebClient.csproj", "{DBF6D681-EFD1-4FA2-A3A2-BCC64C3F9262}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HistorialData", "HistorialData\HistorialData.csproj", "{56E09E90-0F73-409A-B2F5-0DD863CAC350}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio", "Dominio\Dominio.csproj", "{09405039-2E55-4A4F-A4A6-5FECE0D0060F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +28,26 @@ Global
 		{C0FEE631-701B-465B-844C-6157EACE527E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0FEE631-701B-465B-844C-6157EACE527E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0FEE631-701B-465B-844C-6157EACE527E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E96EC35-B9CC-418F-88EB-D8685E61271F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E96EC35-B9CC-418F-88EB-D8685E61271F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E96EC35-B9CC-418F-88EB-D8685E61271F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E96EC35-B9CC-418F-88EB-D8685E61271F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1059482-35EE-4F73-92C2-B953E674B8FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1059482-35EE-4F73-92C2-B953E674B8FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1059482-35EE-4F73-92C2-B953E674B8FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1059482-35EE-4F73-92C2-B953E674B8FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBF6D681-EFD1-4FA2-A3A2-BCC64C3F9262}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBF6D681-EFD1-4FA2-A3A2-BCC64C3F9262}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBF6D681-EFD1-4FA2-A3A2-BCC64C3F9262}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBF6D681-EFD1-4FA2-A3A2-BCC64C3F9262}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56E09E90-0F73-409A-B2F5-0DD863CAC350}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56E09E90-0F73-409A-B2F5-0DD863CAC350}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56E09E90-0F73-409A-B2F5-0DD863CAC350}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56E09E90-0F73-409A-B2F5-0DD863CAC350}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09405039-2E55-4A4F-A4A6-5FECE0D0060F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09405039-2E55-4A4F-A4A6-5FECE0D0060F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09405039-2E55-4A4F-A4A6-5FECE0D0060F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09405039-2E55-4A4F-A4A6-5FECE0D0060F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
