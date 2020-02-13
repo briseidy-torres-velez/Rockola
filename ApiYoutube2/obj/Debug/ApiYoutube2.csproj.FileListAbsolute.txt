@@ -94,3 +94,7 @@ C:\Users\Curso\source\repos\Rockola\ApiYoutube2\obj\Debug\ApiYoutube2.csproj.Cop
 C:\Users\Curso\source\repos\Rockola\ApiYoutube2\obj\Debug\ApiYoutube2.dll
 C:\Users\Curso\source\repos\Rockola\ApiYoutube2\obj\Debug\ApiYoutube2.pdb
 C:\Users\Curso\source\repos\Rockola\ApiYoutube2\obj\Debug\ApiYoutube2.csprojAssemblyReference.cache
+C:\Users\Curso\source\repos\Rockola\ApiYoutube2\bin\EntityFramework.dll
+C:\Users\Curso\source\repos\Rockola\ApiYoutube2\bin\EntityFramework.SqlServer.dll
+C:\Users\Curso\source\repos\Rockola\ApiYoutube2\bin\EntityFramework.xml
+C:\Users\Curso\source\repos\Rockola\ApiYoutube2\bin\EntityFramework.SqlServer.xml

@@ -1,16 +1,17 @@
-﻿@model List<Google.Apis.YouTube.v3.Data.SearchResult>
+﻿@*@model List<Google.Apis.YouTube.v3.Data.SearchResult>*@
+@model List<Rockola.Models.SRC>
 
 @foreach (var item in Model)
 {
 
 <div class="row">
     <div class="col-lg-5 ">
-        <img width="200" onclick=" player.destroy(); onYouTubeIframeAPIReady('@item.Id.VideoId')" src="http://img.youtube.com/vi/@item.Id.VideoId/mqdefault.jpg" alt="@item.Snippet.Title">
+        <img width="200" onclick=" player.destroy(); onYouTubeIframeAPIReady('@item.VideoId')" src="http://img.youtube.com/vi/@item.VideoId/mqdefault.jpg" alt="@item.Title">
         </div>
     <div class="col-lg-5">
-        @item.Snippet.Title
+        @item.Title
        <br>
-        <button class="btn btn-success" onclick="addToPlayList('@item.Id.VideoId','@item.Snippet.Thumbnails.Default__.Url');">Add</button>
+        <button class="btn btn-success" onclick="addToPlayList('@item.VideoId','@item.ImageUrl');">Add</button>
     </div>
     </div>
     <br />

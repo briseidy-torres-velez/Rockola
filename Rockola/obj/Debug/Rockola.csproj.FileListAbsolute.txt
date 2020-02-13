@@ -91,3 +91,9 @@ C:\Users\Curso\source\repos\Rockola\Rockola\obj\Debug\Rockola.pdb
 C:\Users\Curso\source\repos\Rockola\Rockola\bin\WcfService1.dll
 C:\Users\Curso\source\repos\Rockola\Rockola\bin\WcfService1.pdb
 C:\Users\Curso\source\repos\Rockola\Rockola\bin\WcfService1.dll.config
+C:\Users\Curso\source\repos\Rockola\Rockola\bin\System.Net.Http.Formatting.dll
+C:\Users\Curso\source\repos\Rockola\Rockola\bin\System.Web.Http.dll
+C:\Users\Curso\source\repos\Rockola\Rockola\bin\System.Web.Http.WebHost.dll
+C:\Users\Curso\source\repos\Rockola\Rockola\bin\System.Net.Http.Formatting.xml
+C:\Users\Curso\source\repos\Rockola\Rockola\bin\System.Web.Http.xml
+C:\Users\Curso\source\repos\Rockola\Rockola\bin\System.Web.Http.WebHost.xml

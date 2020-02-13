@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DataProductsModel1StoreContainer" CdmEntityContainer="DataProductsEntities">
+    <EntitySetMapping Name="HistorialT">
+      <EntityTypeMapping TypeName="DataProductsModel1.HistorialT">
+        <MappingFragment StoreEntitySet="HistorialT">
+          <ScalarProperty Name="videoId" ColumnName="videoId" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="videoName" ColumnName="videoName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

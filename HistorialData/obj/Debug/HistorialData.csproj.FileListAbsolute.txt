@@ -1,0 +1,12 @@
+C:\Users\Curso\source\repos\Rockola\HistorialData\bin\Debug\HistorialData.dll.config
+C:\Users\Curso\source\repos\Rockola\HistorialData\bin\Debug\HistorialData.dll
+C:\Users\Curso\source\repos\Rockola\HistorialData\bin\Debug\HistorialData.pdb
+C:\Users\Curso\source\repos\Rockola\HistorialData\bin\Debug\EntityFramework.dll
+C:\Users\Curso\source\repos\Rockola\HistorialData\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Curso\source\repos\Rockola\HistorialData\bin\Debug\EntityFramework.xml
+C:\Users\Curso\source\repos\Rockola\HistorialData\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Curso\source\repos\Rockola\HistorialData\obj\Debug\HistorialData.csprojAssemblyReference.cache
+C:\Users\Curso\source\repos\Rockola\HistorialData\obj\Debug\HistorialData.csproj.CoreCompileInputs.cache
+C:\Users\Curso\source\repos\Rockola\HistorialData\obj\Debug\HistorialData.csproj.CopyComplete
+C:\Users\Curso\source\repos\Rockola\HistorialData\obj\Debug\HistorialData.dll
+C:\Users\Curso\source\repos\Rockola\HistorialData\obj\Debug\HistorialData.pdb
