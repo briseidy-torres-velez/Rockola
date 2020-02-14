@@ -23,14 +23,14 @@ namespace Rockola.Controllers
         }
 
         [HttpGet]
-        public ActionResult BuscarLista(string keyword)
+        public ActionResult BuscarLista(string palabra)
         {
             IEnumerable<SRC> searchResultCustomizeds = null;
             HttpClient clienteHTTP = new HttpClient
             {
                 BaseAddress = new Uri("http://localhost:58905/")
             };
-            var request = clienteHTTP.GetAsync($"api/Youtube?palabra={keyword}");
+            var request = clienteHTTP.GetAsync($"api/Youtube?palabra={palabra}");
             request.Wait();
 
 
@@ -46,6 +46,8 @@ namespace Rockola.Controllers
 
             return PartialView("Search", readresult.Result);
         }
+
+
 
         //[HttpGet]
         //public ActionResult SearchList(string keyword)

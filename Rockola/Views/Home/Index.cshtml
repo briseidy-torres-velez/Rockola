@@ -43,14 +43,16 @@
     // 2. This code loads the IFrame Player API code asynchronously.
     var tag = document.createElement('script');
     tag.src = "https://www.youtube.com/iframe_api";
+
     var firstScriptTag = document.getElementsByTagName('script')[0];
+  
     firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
     // 3. This function creates an <iframe> (and YouTube player)
     //    after the API code downloads.
     var player;
     var flag = false;
     var playListContainer;
-    var Stopped = false;
+
 
     function onYouTubeIframeAPIReady(VideoId)
     {
@@ -81,60 +83,42 @@
     //    the player should play for six seconds and then stop.
     var done = false;
     function onPlayerStateChange(event) {
-        if (event.data == YT.PlayerState.PLAYING && !done) {
-            setTimeout(stopVideo, 6000);
-            done = true;
-        }
-    }
-    function stopVideo() {
-        player.stopVideo();
-    }
-
-    function onPlayerStateChange(event) {
-
         if (event.data == YT.PlayerState.PLAYING) {
-
             flag = true;
 
-        } else if (event.data == YT.PlayerState.PAUSED) {
-
-           flag= false;
-
+        } else if (event.data == YT.PlayerState.PAUSED)
+        {
+            flag = false;
         }
-        if (event.data == YT.PlayerState.ENDED && !done) {
 
-
-
+        if (event.data == YT.PlayerState.ENDED && !done)
+        {
             playListContainer = document.getElementById('playList');
-
-            var nextVideoToPlay = playListContainer.children[0];
-
-            console.log(nextVideoToPlay);
-
-            Stopped = true;
-
+           
+            videoStopped = true;
             playQueue();
-
-
-
         }
-
 
     }
+   
+
+    
     function stopVideo() {
 
         player.stopVideo();
 
     }
 
-    function addToPlayList(VideoId, videoImageURL) {
+    function addToPlayList(VideoId, videoImageURL, Title) {
 
+       
         if (flag) {
        
             playListContainer = document.getElementById('playList');
             var img = document.createElement('img');
             img.src = videoImageURL;
             img.alt = VideoId;
+            img.Title = Title
             img.classList = "table-bordered border-danger rounded mx-4";
             img.width = 160;
             playListContainer.append(img);
@@ -154,12 +138,32 @@
         var firstVideo = playListContainer.children[0];
 
         var videoId = firstVideo.alt;
-
+        var Title = firstVideo.Title;
+       
         firstVideo.remove();
 
         player.destroy();
-
+        
         onYouTubeIframeAPIReady(videoId);
+
+        var video = {
+            "videoName": Title,
+            "videoId": videoId
+        }
+
+        console.log(video);
+       
+
+        $.ajax({
+            type: "POST",
+            dataType: "json",
+            url: "http://localhost:58905/api/Youtube",
+            data: video,
+            success: function (result) {
+                console.info(result);
+            }
+
+        });
 
     }
 </script>
